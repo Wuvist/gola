@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/jordan-bonecutter/goption"
-	"github.com/olachat/gola/v2/golalib/testdata/wallet"
+	"github.com/Wuvist/gola/golalib/testdata/wallet"
 )
 
 func TestWallet(t *testing.T) {

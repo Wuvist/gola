@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 
 	"github.com/jordan-bonecutter/goption"
-	"github.com/olachat/gola/v2/golalib/testdata/song_user_favourites"
-	"github.com/olachat/gola/v2/golalib/testdata/songs"
+	"github.com/Wuvist/gola/golalib/testdata/song_user_favourites"
+	"github.com/Wuvist/gola/golalib/testdata/songs"
 )
 
 func TestSong(t *testing.T) {

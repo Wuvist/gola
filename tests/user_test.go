@@ -12,10 +12,10 @@ import (
 	gsql "github.com/dolthub/go-mysql-server/sql"
 	"github.com/dolthub/go-mysql-server/sql/information_schema"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/olachat/gola/v2/coredb"
-	"github.com/olachat/gola/v2/golalib/testdata"
-	"github.com/olachat/gola/v2/golalib/testdata/users"
-	"github.com/olachat/gola/v2/mysqldriver"
+	"github.com/Wuvist/gola/coredb"
+	"github.com/Wuvist/gola/golalib/testdata"
+	"github.com/Wuvist/gola/golalib/testdata/users"
+	"github.com/Wuvist/gola/mysqldriver"
 )
 
 const (

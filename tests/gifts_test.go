@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jordan-bonecutter/goption"
-	"github.com/olachat/gola/v2/golalib/testdata/gifts"
+	"github.com/Wuvist/gola/golalib/testdata/gifts"
 )
 
 func TestFetchGiftNull(t *testing.T) {

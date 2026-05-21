@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/olachat/gola/v2/coredb"
+	"github.com/Wuvist/gola/coredb"
 )
 
 func (q *idxQuery[T]) AllCtx(ctx context.Context) ([]*T, error) {

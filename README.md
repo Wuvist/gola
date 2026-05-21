@@ -82,7 +82,7 @@ PS: Query using arbitrary SQL is also supported, but purposely made not as conve
 * Make sure have [go 1.18](https://go.dev/dl/) or above installed
 * Install the lastest version of gola binary:
 
-`go install github.com/olachat/gola`
+`go install github.com/Wuvist/gola`
 
 Check gola version: `gola --version`
 
@@ -118,7 +118,7 @@ Upon your application start, db instance factory must be passed to gola's `cored
 ```go
 import (
   "database/sql"
-  "github.com/olachat/gola/coredb"
+  "github.com/Wuvist/gola/coredb"
 )
 
 func main() {

@@ -12,8 +12,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/olachat/gola/v2/coredb"
-	"github.com/olachat/gola/v2/golalib/testdata/worker"
+	"github.com/Wuvist/gola/coredb"
+	"github.com/Wuvist/gola/golalib/testdata/worker"
 )
 
 func TestTxWithLock(t *testing.T) {

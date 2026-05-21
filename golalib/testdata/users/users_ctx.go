@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/olachat/gola/v2/coredb"
+	"github.com/Wuvist/gola/coredb"
 )
 
 // FetchByPK returns a row from `users` table with given primary key value

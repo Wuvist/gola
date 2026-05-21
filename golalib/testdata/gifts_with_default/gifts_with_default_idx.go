@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/olachat/gola/v2/coredb"
+	"github.com/Wuvist/gola/coredb"
 )
 
 type orderBy int

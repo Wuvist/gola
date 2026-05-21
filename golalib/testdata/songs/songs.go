@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/olachat/gola/v2/coredb"
+	"github.com/Wuvist/gola/coredb"
 
 	"github.com/jordan-bonecutter/goption"
 )
